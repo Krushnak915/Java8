@@ -11,6 +11,7 @@ public class streamapi
 
         List<Integer> li= Arrays.asList(1,3,5,76,5,4,3,22);
         li.stream().filter(e->e%2!=0).forEach(System.out::println);
+        //i have to add some code
     }
 
 }
